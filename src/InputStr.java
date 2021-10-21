@@ -27,7 +27,7 @@ public class InputStr {
             int a = Operation.arithmOper(Integer.valueOf(list.get(0)), Integer.valueOf(list.get(2)), list.get(1));
             if (a > 0) {
                 System.out.println(RomanTranslate.intToRoman(a));
-            }else System.out.println("Рнезульат меньше нуля");
+            }else System.out.println("Резульат меньше нуля");
 
         }
         else if (list.size() < 4 && list.get(0).matches("(10|[1-9])") && list.get(1).matches("(\\+|-|\\*|/)") && list.get(2).matches("(10|[1-9])")) {
